@@ -3,151 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Ellie Aughtman - Touch The Moon</title>
-    <style>
-        /* Basic Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            background-color: #F2F2F2;
-            font-family: 'Verdana', sans-serif;
-            color: #333;
-        }
-
-        /* Retro 90s Styling */
-        header {
-            background-color: #4169E1;
-            padding: 20px;
-            text-align: center;
-            border-bottom: 4px solid #2F4F4F;
-        }
-
-        header h1 {
-            font-size: 36px;
-            color: #FFFFFF;
-            text-shadow: 1px 1px 2px #000000;
-            font-family: 'Impact', sans-serif;
-        }
-
-        header h2 {
-            color: #FFFFFF;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 18px;
-        }
-
-        nav {
-            background-color: #333;
-            color: #FFFFFF;
-            display: flex;
-            justify-content: center;
-            padding: 10px 0;
-            border-bottom: 4px solid #2F4F4F;
-        }
-
-        nav a {
-            color: #FFFFFF;
-            text-decoration: none;
-            padding: 0 15px;
-            font-size: 16px;
-            font-family: 'Arial', sans-serif;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        section {
-            padding: 40px 20px;
-            text-align: center;
-        }
-
-        section h3 {
-            font-size: 28px;
-            color: #4169E1;
-            margin-bottom: 20px;
-            text-shadow: 1px 1px 2px #000000;
-        }
-
-        section p {
-            font-size: 16px;
-            color: #666;
-            max-width: 800px;
-            margin: 0 auto 20px;
-            font-family: 'Verdana', sans-serif;
-        }
-
-        footer {
-            background-color: #4169E1;
-            color: #FFFFFF;
-            text-align: center;
-            padding: 20px;
-            border-top: 4px solid #2F4F4F;
-        }
-
-        footer a {
-            color: #FFFFFF;
-            text-decoration: none;
-            font-family: 'Arial', sans-serif;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
     <header>
-        <h1>Ellie Aughtman</h1>
-        <h2>Touch The Moon</h2>
+        <div class="header-content">
+            <h1>Ellie Aughtman</h1>
+            <p class="tagline">Touch The Moon</p>
+        </div>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="#bio">Bio</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#tour">Tour Dates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <a href="#bio">Bio</a>
-        <a href="#music">Music</a>
-        <a href="#tour-dates">Tour Dates</a>
-        <a href="#contact">Contact</a>
-    </nav>
+    <main>
+        <!-- Bio Section -->
+        <section id="bio">
+            <h2>Bio</h2>
+            <p>Ellie Aughtman is an independent folk singer/songwriter from Portsmouth, NH</p>
+        </section>
 
-    <!-- Bio Section -->
-    <section id="bio">
-        <h3>Bio</h3>
-        <p>Hello! I’m Ellie Aughtman, a musician with a love for storytelling through sound. My journey started from humble beginnings and has evolved into a passion for creating authentic music that resonates with the soul. Stay tuned as I release more tracks like my latest single, "Touch The Moon"!</p>
-    </section>
+        <!-- Music Section -->
+        <section id="music">
+            <h2>Music</h2>
+            <p>Listen to my latest single: <em>Touch The Moon</em> on all major platforms...</p>
+        </section>
 
-    <!-- Music Section -->
-    <section id="music">
-        <h3>Music</h3>
-        <p>Check out my latest music here! (This will be updated with links to Spotify, YouTube, etc.)</p>
-    </section>
+        <!-- Tour Dates Section -->
+        <section id="tour">
+            <h2>Tour Dates</h2>
+            <p>No upcoming shows. Check back soon!</p>
+        </section>
 
-    <!-- Tour Dates Section -->
-    <section id="tour-dates">
-        <h3>Tour Dates</h3>
-        <p>Upcoming tour dates will be posted here soon. Stay tuned!</p>
-    </section>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Follow me on social media:</p>
+            <ul class="socials">
+                <li><a href="https://tiktok.com/@ellieaughtman" target="_blank">Tiktok</a></li>
+                <li><a href="https://instagram.com/ellieaughtman" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+    </main>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h3>Contact</h3>
-        <p>Follow me on social media!</p>
-        <p>
-            TikTok: <a href="https://www.tiktok.com/@ellieaughtman" target="_blank">@ellieaughtman</a><br>
-            Instagram: <a href="https://www.instagram.com/ellieaughtman" target="_blank">@ellieaughtman</a>
-        </p>
-    </section>
-
-    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Ellie Aughtman. All Rights Reserved.</p>
-        <p>Designed with love and a little nostalgia!</p>
+        <p>&copy; 2024 Ellie Aughtman. All rights reserved.</p>
     </footer>
 </body>
 </html>
-
